@@ -1,0 +1,11 @@
+h1 {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+div {
+    font-family: sans-serif;
+    font-weight: 700;
+    background-color: yellow;
+}
