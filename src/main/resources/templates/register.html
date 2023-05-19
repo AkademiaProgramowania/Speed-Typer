@@ -1,20 +1,30 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Register</title>
     <link th:href="@{/style.css}" rel="stylesheet" href="../static/style.css"/>
     <script type="text/javascript" th:src="@{/script.js}" src="../static/script.js" defer></script>
 </head>
 <body>
-<h1>speed typer</h1>
-<div>
-    Król Karol kupił królowej Karolinie korale koloru koralowego.
-</div>
-<input type="text" id="text-input">
-<a href="/register">
-    Zarejestruj się
-</a>
+<h1>
+    Formularz rejestracji
+</h1>
+<form action="/register" method="post">
+    E-mail:
+    <input type="email" name="email">
+    <br>
+    Hasło:
+    <input type="password" name="password">
+    <br>
+    Powtórz hasło:
+    <input type="password" name="repassword">
+    <br>
+    <button type="submit">
+        Potwierdź
+    </button>
+</form>
 </body>
 </html>
