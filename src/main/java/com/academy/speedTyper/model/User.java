@@ -1,6 +1,5 @@
 package com.academy.speedTyper.model;
 
-import com.academy.speedTyper.dto.RegisterRequestDTO;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
